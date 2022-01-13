@@ -1,21 +1,6 @@
-function Philippine (usd){
-    let total = usd *51.02 ;
-    console.log(total);
-
-Philippine(20.00);
-
-
-let City = "HELLO BROOKLYN"
-console.log(City);
-
-
-function FindArea(length,width,){
-    return(length*width);
+function Quiz(num1,num2){
+    let total = (num1 + num2);
+    return(total);
 }
- 
- console.log(FindArea(4,2));
 
-
- let Area = FindArea(4,2);
- console.log(Area);
-    
+console.log(Quiz(26,45));
