@@ -1,8 +1,5 @@
-function FindArea( length, width){
-    let answer = length * width
-    return(answer);
+function Philippine (usd){
+    let total = usd *51.02 ;
+    console.log(total);
 }
-
-console.log(FindArea(20,10));
-let Area1 = FindArea(10,10);
-console.log(Area1);
+Philippine(20.00);
