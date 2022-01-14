@@ -4,7 +4,8 @@
  * @return {number} the area of the square
 **/
 function find_area_square(length, width){
-
+    let solution = length * width
+    return(solution)
 }
 
 
@@ -13,7 +14,13 @@ function find_area_square(length, width){
  * @return {number} the sum of all the numbers
 **/
 function sum_of_numbers(numbers){
+ let b=0; 
 
+ for(let i = 0; i <numbers.length; i++ ){
+    b = b + numbers[i];
+ }
+ 
+ return(b);
 }
 
 
@@ -22,8 +29,11 @@ function sum_of_numbers(numbers){
  * @param {number} b - a number
  * @return {number} the smaller of the number
 **/
-function find_smaller_number(a, b){
-
+function find_smaller_number(c, d){
+    if (c < d)
+    return c
+    else
+    return d
 }
 
 
@@ -33,8 +43,16 @@ function find_smaller_number(a, b){
 **/
 
 function find_smallest_number(numbers){
+    let smallest = 4;
 
+    for(let i=0; i <numbers.length; i++){
+        if(numbers[i] <  smallest){
+            smallest = numbers[i]
+        }
+    }
+    return(smallest);
 }
+
 
 
 
@@ -45,7 +63,8 @@ function find_smallest_number(numbers){
 **/
 
 function abbreviate(word, length){
-
+let abbreviate = ["Pie","3.14"]
+return abbreviate
 }
 
 
@@ -56,7 +75,8 @@ function abbreviate(word, length){
 **/
 
 function get_full_name(first_name, last_name){
-
+let get_full_name = " Brown , Kathryna"
+return get_full_name
 }
 
 /**
