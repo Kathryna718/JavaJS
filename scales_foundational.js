@@ -63,8 +63,11 @@ function find_smallest_number(numbers){
 **/
 
 function abbreviate(word, length){
-let abbreviate = ["Pie","3.14"]
-return abbreviate
+    let solution = "";
+    for(i =0; i < length; i++){
+        solution = solution + word[i]
+    }
+        return (solution);
 }
 
 
