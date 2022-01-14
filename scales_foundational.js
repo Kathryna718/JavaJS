@@ -43,7 +43,7 @@ function find_smaller_number(c, d){
 **/
 
 function find_smallest_number(numbers){
-    let smallest = 4;
+    let smallest = numbers[0];
 
     for(let i=0; i <numbers.length; i++){
         if(numbers[i] <  smallest){
@@ -75,7 +75,7 @@ return abbreviate
 **/
 
 function get_full_name(first_name, last_name){
-let get_full_name = " Brown , Kathryna"
+let get_full_name =  last_name + ', ' + first_name 
 return get_full_name
 }
 
